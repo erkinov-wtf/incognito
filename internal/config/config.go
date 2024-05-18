@@ -7,9 +7,9 @@ import (
 )
 
 type Config struct {
-	Token    string `env:"TOKEN"`
-	Username string `env:"USERNAME"`
-	ChatID   int64  `env:"CHATID"`
+	Token     string `env:"TOKEN"`
+	Username  string `env:"USERNAME"`
+	ChannelID int64  `env:"CHATID"`
 }
 
 func MustLoad() *Config {
